@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🚀 C# Explanations And Applications</h1>
+  <h1>🚀 C# core practice</h1>
   <img src="https://img.shields.io/badge/Language-C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
   <img src="https://img.shields.io/badge/Framework-.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white" alt=".NET" />
   <img src="https://img.shields.io/badge/Status-Active%20%26%20Growing-success?style=for-the-badge" alt="Status" />
