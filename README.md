@@ -8,9 +8,8 @@
 ---
 
 ## 📌 About This Repository
-Welcome to my structured learning journey and practical workspace for mastering **C#** and backend development fundamentals. 
 
-This repository serves as a comprehensive archive of my progress, combining theoretical explanations with hands-on applications. The content is carefully documented based on university lectures, independent study, and practical problem-solving to build a solid foundation in algorithms, logic, and clean code principles.
+Personal code bank showcasing the iterative evolution of practical C# applications—progressing from basic control flow to modular methods, clean OOP architecture, and decoupled interfaces.
 
 ---
 
@@ -19,16 +18,17 @@ Here is an overview of the modules covered so far. *(Click on any folder to view
 
 | Module | Topic | Description |
 | :---: | :--- | :--- |
-| 📁 `01` | **[Introduction and Basics](./01-Introduction-and-Basics)** | Computer hardware/software concepts, .NET framework architecture, and C# syntax basics. |
-| 📁 `02` | **[Data Types and Variables](./02-Data-Types-and-Variables)** | Handling variables, constants, I/O operations, and type casting. *Includes a Student Registration System project.* |
-| 📁 `03` | **[Operators and Control Structures](./03-Operators-and-Control-Structures)** | Arithmetic/logical operators, decision-making (`If..Else`, `Switch`). *Includes a Smart Calculator application.* |
-
+| 📁 `01` | **[Introduction and Basics](./01-Calculator)** | Iterative Calculator | Control flow, refactoring methods, Polymorphism (`IOperation`), and UI decoupling. |
+| 📁 `02` | **[Data Types and Variables](./02-Student-Management-System)** | Student Management | Collections (`List<T>`), CRUD logic, data validation, and file/database persistence. |
+| 📁 `03` | **[Operators and Control Structures](./03-Bank-Account-System)** | Bank Account System | Deep OOP (Encapsulation, Inheritance, Abstraction) and custom Exception Handling. |
 ---
 
-## 🎯 Core Objectives
-* Write clean, readable, and maintainable C# code.
-* Deeply understand the core logic behind software engineering concepts.
-* Translate theoretical knowledge into real-world applications and mini-projects.
+## 🔄 Versioning Convention
+Each project folder tracks progressive iterations:
+- **`v1-Basics`:** Procedural implementation, input validation (`TryParse`), and loops.
+- **`v2-Methods`:** Clean `Main` method with single-responsibility helper functions.
+- **`v3-OOP`:** Object-oriented design applying SOLID fundamentals and error handling.
+- **`v4-Advanced`:** Persistent storage (Files/SQL) or decoupled GUI/API layers.
 
 ---
 <div align="center">
