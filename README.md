@@ -18,9 +18,9 @@ Here is an overview of the modules covered so far. *(Click on any folder to view
 
 | Module | Topic | Description |
 | :---: | :--- | :--- |
-| 📁 `01` | **[Introduction and Basics](./01-Calculator)** | Iterative Calculator | Control flow, refactoring methods, Polymorphism (`IOperation`), and UI decoupling. |
-| 📁 `02` | **[Data Types and Variables](./02-Student-Management-System)** | Student Management | Collections (`List<T>`), CRUD logic, data validation, and file/database persistence. |
-| 📁 `03` | **[Operators and Control Structures](./03-Bank-Account-System)** | Bank Account System | Deep OOP (Encapsulation, Inheritance, Abstraction) and custom Exception Handling. |
+| 📁 `01` | **[01-Calculator](./01-Calculator)** | Iterative Calculator | Control flow, refactoring methods, Polymorphism (`IOperation`), and UI decoupling. |
+| 📁 `02` | **[02-Student-Management-System](./02-Student-Management-System)** | Student Management | Collections (`List<T>`), CRUD logic, data validation, and file/database persistence. |
+| 📁 `03` | **[03-Bank-Account-System](./03-Bank-Account-System)** | Bank Account System | Deep OOP (Encapsulation, Inheritance, Abstraction) and custom Exception Handling. |
 ---
 
 ## 🔄 Versioning Convention
