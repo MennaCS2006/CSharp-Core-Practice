@@ -1,4 +1,4 @@
-\# 🧮 Iterative Calculator (C#)
+# 🧮 Iterative Calculator (C#)
 
 
 
@@ -6,7 +6,7 @@ A console-based arithmetic calculator built to demonstrate progressive C# develo
 
 
 
-\## ✨ Core Features
+## ✨ Core Features
 
 \- \*\*Basic Arithmetic:\*\* Performs addition (`+`), subtraction (`-`), multiplication (`\*`), and division (`/`).
 
@@ -18,7 +18,7 @@ A console-based arithmetic calculator built to demonstrate progressive C# develo
 
 
 
-\## 📈 Version Roadmap
+## 📈 Version Roadmap
 
 \- \[x] \*\*`v1-Basics`:\*\* Procedural implementation in `Main`, loops, `switch` cases, and `TryParse` validation.
 
