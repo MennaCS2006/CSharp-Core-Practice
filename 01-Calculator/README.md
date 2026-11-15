@@ -8,13 +8,13 @@ A console-based arithmetic calculator built to demonstrate progressive C# develo
 
 ## ✨ Core Features
 
-\- \*\*Basic Arithmetic:\*\* Performs addition (`+`), subtraction (`-`), multiplication (`\*`), and division (`/`).
+\-  \*\*Basic Arithmetic:\*\* Performs addition (`+`), subtraction (`-`), multiplication (`\*`), and division (`/`).
 
-\- \*\*Safe Input Handling:\*\* Uses `TryParse` and operator validation to prevent runtime crashes on invalid inputs.
+\-  \*\*Safe Input Handling:\*\* Uses `TryParse` and operator validation to prevent runtime crashes on invalid inputs.
 
-\- \*\*Error Protection:\*\* Detects and blocks division by zero with clear user feedback.
+\-  \*\*Error Protection:\*\* Detects and blocks division by zero with clear user feedback.
 
-\- \*\*Continuous Session:\*\* Loops smoothly for multiple consecutive calculations until the user exits.
+\-  \*\*Continuous Session:\*\* Loops smoothly for multiple consecutive calculations until the user exits.
 
 
 
