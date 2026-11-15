@@ -22,7 +22,7 @@ A console-based arithmetic calculator built to demonstrate progressive C# develo
 
 \- \[x] \*\*`v1-Basics`:\*\* Procedural implementation in `Main`, loops, `switch` cases, and `TryParse` validation.
 
-\- \[ ] \*\*`v2-Methods`:\*\* Refactoring into single-responsibility helper methods.
+\- \[x] \*\*`v2-Methods`:\*\* Refactoring into single-responsibility helper methods.
 
 \- \[ ] \*\*`v3-OOP`:\*\* `CalculatorEngine`, `IOperation` polymorphism, encapsulated history, and exception handling.
 
