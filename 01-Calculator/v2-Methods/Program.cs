@@ -11,12 +11,12 @@ namespace CalculatorV2
 
             while (playAgain)
             {
-                Console.WriteLine("\n ++ CalculatorV1 ++ \n");
+                Console.WriteLine("\n ++ CalculatorV2 ++ \n");
                 double leftNum = ReadNumber("Enter left hand number: ");
                 char op = ReadValidOp("Enter operand: ");
                 double rightNum = ReadNumber("Enter right hand number: ");
-                TryCalculate(leftNum, rightNum, op, out double result);
-                if (result != double.MinValue)
+                bool success = TryCalculate(leftNum, rightNum, op, out double result);
+                if (success)
                 {
                     Console.WriteLine($"\n{leftNum} {op} {rightNum} = {result}\n");
                 }
@@ -24,7 +24,7 @@ namespace CalculatorV2
                 {
                     Console.WriteLine("\nError: Cannot divide by zero.\n");
                 }
-                playAgain = AskToContinue("Do yo wish to exit (y/n)? ");
+                playAgain = AskToExit("Do yo wish to exit (y/n)? --> ");
             }
 
 
@@ -88,7 +88,7 @@ namespace CalculatorV2
 
             }
         }
-        static bool AskToContinue(string prompt)
+        static bool AskToExit(string prompt)
         {
             Console.Write(prompt);
             if (char.TryParse(Console.ReadLine(), out char exit) && char.ToLower(exit) == 'y')
